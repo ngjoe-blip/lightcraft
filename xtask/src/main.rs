@@ -321,6 +321,12 @@ const RAW_SAMPLES: &[(&str, &str)] = &[
     ("arw-sony-a7m4-lossless-l.arw", "https://raw.pixls.us/data/Sony/ILCE-7M4/ILCE-7M4_DSC06674_FullFrame-LossLess-Compressed-Large.ARW"),
     ("arw-sony-a7m4-lossless-m.arw", "https://raw.pixls.us/data/Sony/ILCE-7M4/ILCE-7M4_DSC06675_FullFrame-LossLess-Compressed-Medium.ARW"),
     ("arw-sony-a7m4-lossless-s.arw", "https://raw.pixls.us/data/Sony/ILCE-7M4/ILCE-7M4_DSC06676_FullFrame-LossLess-Compressed-Small.ARW"),
+    // ILCE-7CR (61 MP), one scene in three codings: lossless compressed L (2×2 CFA cells per LJ92 sample) and M
+    // (subsampled YCbCr), and compressed ARW2. SHA-256: L 3e1642f3a1ae7c9f93228c5f09f27e362608e6a4ca1b3e5d8dd9eb8fae576997,
+    // M 5bcba4acc52a5b902074581b4a2f5fb3c79ec56bd0fdc1746b9e2c0f9d3e9c88, compressed f5096e8fbccf0842c8a57763cabd2836608f019eb7fd54f7b22260c2f5bc4da5
+    ("arw-sony-a7cr-lossless-l.arw", "https://raw.pixls.us/data/Sony/ILCE-7CR/DSC00795.ARW"),
+    ("arw-sony-a7cr-lossless-m.arw", "https://raw.pixls.us/data/Sony/ILCE-7CR/DSC00796.ARW"),
+    ("arw-sony-a7cr-compressed.arw", "https://raw.pixls.us/data/Sony/ILCE-7CR/DSC00798.ARW"),
     // pre-2017 bodies: white balance only in the enciphered maker note, black level only in the SR2SubIFD (#148)
     ("arw-sony-rx100m3.arw", "https://raw.pixls.us/data/Sony/DSC-RX100M3/DSC00734.ARW"),
     ("arw-sony-rx100.arw", "https://raw.pixls.us/data/Sony/DSC-RX100/DSC00838.ARW"),
